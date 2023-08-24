@@ -1,5 +1,18 @@
 .MinecraftIcon{
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 5%;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    width: 6.5%;
+    float: left;
+}
+.Titulo{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 3rem;
+}
+.Menu{
+    background-color:rgb(230, 240, 238);
+}
+.Paginas{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
