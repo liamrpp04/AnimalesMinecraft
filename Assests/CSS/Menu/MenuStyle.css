@@ -20,9 +20,7 @@
 }
 .Targeta{
     background-color: white;
-    border-color: black;
-    border-width: 2px, 2px, 2px, 2px;
-    border: solid;
+    border: 2px solid black;
     margin-right: 20px;
     margin-bottom: 20px;
     display: inline-block;
@@ -31,7 +29,7 @@
     color: white;
 }
 .ContenedorDeTargetas{
-    margin-left: 91.67px;
+    margin-left: 96.67px;
 }
 
 
