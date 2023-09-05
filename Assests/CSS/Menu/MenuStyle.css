@@ -23,13 +23,31 @@
     border: 2px solid black;
     margin-right: 20px;
     margin-bottom: 20px;
-    display: inline-block;
+    width: 200px;
+    height: 280px;
+}
+.ContenedorDeImagenTargeta{
+    width: 100%;
+    position: relative;
+}
+.ContenedorDeTextoTargeta{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     color: white;
+    width: 100%;
+    background-color: indianred;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.imgAnimales{
+    width:90%;   
+    display: block;
+    position: absolute;
+    transform: translate(10px,50px);
 }
 .ContenedorDeTargetas{
     margin-left: 96.67px;
+    display: inline-block;
 }
 
 
