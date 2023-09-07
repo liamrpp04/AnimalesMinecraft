@@ -24,11 +24,13 @@
     margin-right: 20px;
     margin-bottom: 20px;
     width: 200px;
-    height: 280px;
+    display: inline-block;
+    
 }
 .ContenedorDeImagenTargeta{
     width: 100%;
     position: relative;
+    height: 280px;
 }
 .ContenedorDeTextoTargeta{
     text-align: center;
@@ -49,5 +51,3 @@
     margin-left: 96.67px;
     display: inline-block;
 }
-
-
