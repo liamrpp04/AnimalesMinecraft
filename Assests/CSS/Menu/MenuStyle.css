@@ -25,7 +25,6 @@
     margin-bottom: 20px;
     width: 200px;
     display: inline-block;
-    
 }
 .ContenedorDeImagenTargeta{
     width: 100%;
@@ -45,9 +44,18 @@
     width:90%;   
     display: block;
     position: absolute;
-    transform: translate(10px,50px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .ContenedorDeTargetas{
     margin-left: 96.67px;
     display: inline-block;
+}
+.Targeta a{
+    text-decoration: none;
+}
+.Targeta:hover{
+    opacity: 0.7;
+    background-color: rgb(185, 185, 185);
 }
