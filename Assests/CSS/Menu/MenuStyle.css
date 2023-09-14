@@ -52,7 +52,7 @@
     margin-left: 96.67px;
     display: inline-block;
 }
-.Targeta a{
+a{
     text-decoration: none;
 }
 .Targeta:hover{
@@ -60,3 +60,43 @@
     box-shadow: 0px 0px 35px rgba(0,0,0,0.65);
     background-color: hsl(207, 100%, 98.75%);
 }
+html{
+    scroll-behavior: smooth;
+}
+.css-button-3d--black {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #343a40;
+    box-shadow: 0 5px #212529;
+    margin-right: 5px;
+    
+  }
+  .css-button-3d--black:hover {
+    box-shadow: 0 3px #212529;
+    top: 1px;
+  }
+  .css-button-3d--black:active {
+    box-shadow: 0 0 #212529;
+    top: 5px;
+  }
+  p{
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .header{
+    background-color:rgb(230, 240, 238);
+  }
