@@ -1,22 +1,27 @@
 .MinecraftIcon{
-    margin-left: 2.5px;
-    margin-top: 2.5px;
+    padding-left: 2.5px;
+    padding-top: 2.5px;
     width: 6.5%;
     float: left;
 }
 .Titulo{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    padding-top: 3rem;
-    margin-right: 91.67px;
+    margin: 0px;
+    padding: 3rem;
+    left: 50%;
+    right: 50%;
 }
 .Menu{
     background-color:rgb(230, 240, 238);
+    margin: 0px;
+    padding: 0px;
 }
 .Paginas{
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    scroll-margin-top: 10ex;
 }
 .Targeta{
     background-color: white;
@@ -51,6 +56,7 @@
 .ContenedorDeTargetas{
     margin-left: 96.67px;
     display: inline-block;
+    scroll-margin-top: 10ex;
 }
 a{
     text-decoration: none;
@@ -97,6 +103,15 @@ html{
     left: 50%;
     transform: translate(-50%,-50%);
   }
-  .header{
-    background-color:rgb(230, 240, 238);
+  header{
+    background-color:hsl(131, 100%, 26%);
+    padding: 0px;
+    padding-bottom: 5px;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+  }
+  .catálogo{
+    margin-top: 15rem;
   }
